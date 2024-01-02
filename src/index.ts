@@ -1,3 +1,5 @@
+import { uploads } from './cloudinary-upload'
+
 export {
   IAuthPayload,
   IAuth,
@@ -88,3 +90,4 @@ SellerType,
   ISellerDocument,
 } from './interfaces/seller.interface'
 
+export { uploads, videoUpload} from './cloudinary-upload'
