@@ -16,13 +16,13 @@ export {
   IAuthResponse,
   IAuthUser,
 
-} from './interfaces/auth.interface'
+} from './auth.interface'
 
 export {
   IBuyerDocument,
   IReduxBuyer,
 
-} from './interfaces/buyer.interface'
+} from './buyer.interface'
 
 export {
   IConversationDocument,
@@ -33,11 +33,11 @@ export {
   IChatBuyerProps,
   IChatMessageProps,
 
-} from './interfaces/chat.interface'
+} from './chat.interface'
 
 export {
   IEmailLocals
-} from './interfaces/email.interface'
+} from './email.interface'
 
 export {
   IOffer,
@@ -48,7 +48,7 @@ export {
   IOrderMessage,
   IOrderDocument,
   IOrderNotifcation,
-} from './interfaces/order.interface'
+} from './order.interface'
 
 export {
   ICreateProduct,
@@ -60,7 +60,7 @@ export {
   IProductViewReviewsProps,
   IProductInfo,
   IProductTopProps,
-} from './interfaces/product.interface'
+} from './product.interface'
 
 export {
   IReviewMessageDetails,
@@ -70,7 +70,7 @@ export {
   IRatingCategories,
 
 
-} from './interfaces/review.interface'
+} from './review.interface'
 
 export {
   ISearchResult,
@@ -79,7 +79,7 @@ export {
   IQueryString,
   ITerm,
   IPaginateProps
-} from './interfaces/search.interface'
+} from './search.interface'
 
 export {
 SellerType,
@@ -88,7 +88,7 @@ SellerType,
   IEducation,
   ICertificate,
   ISellerDocument,
-} from './interfaces/seller.interface'
+} from './seller.interface'
 
 export { uploads, videoUpload} from './cloudinary-upload'
 
