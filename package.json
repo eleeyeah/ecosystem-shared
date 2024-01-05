@@ -1,5 +1,5 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "license": "MIT",
   "types": "./src/index.d.ts",
   "description": "Helpers library for Ecosystem app",
@@ -35,10 +35,6 @@
     ".": {
       "import": "./src/index.js",
       "require": "./src/index.js"
-    },
-    "./icons": {
-      "import": "./esm/icons/index.js",
-      "require": "./cjs/icons/index.js"
     }
   },
   "dependencies": {
